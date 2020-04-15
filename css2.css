@@ -1,0 +1,90 @@
+{
+	font:normal 16px Arial,helvetica,serif;
+line-height: 1.6em;
+margin:0;
+}
+a{
+	text-decoration: none;
+	color:blue;
+}
+a:hover{
+	color:green;
+
+}
+a:active{
+	color: orange;
+}
+a:vsited
+{
+	color:red;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+}
+.box-1{
+	background-color:#333333;
+	color:#fff;
+
+	border:3px dotted #fff;
+	padding: 20px;
+	margin: 20px;
+
+}
+
+
+	border-right:10px red solid;
+	border-bottom: 10px black solid;
+	border-left: 10px red solid;
+	border-top: 10px black solid;
+
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+
+	margin-top:20px 0;
+}
+.box-1 h1{
+	font-family: serif;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+
+}
+
+.box-2
+{
+	border:3px dotted #fff;
+	padding: 20px;
+	margin: 20px;
+
+}
+
+.categories 
+{
+	border:1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+.categories h2
+{
+	text-align:center;
+}
+.categories ul
+{
+	padding: 0;
+	padding-left:20px;
+	list-style: square;
+	list-style: none;
+}
+.categories li
+{
+	padding-bottom:8px:
+	border-bottom:dotted 1px #fff;
+	list-style-image:url("../image/check.png");  
+}
